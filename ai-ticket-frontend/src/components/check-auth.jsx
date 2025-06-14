@@ -24,7 +24,7 @@ function CheckAuth({children, protectedRoute}) {
     }, [navigate, protectedRoute]);
 
     if (isAllowed === null) {
-        return <div>Loading...</div>; // prevent rendering children before check
+        return <div>Loading...</div>; // prevent rendering children before checked
     }
 
     return children;
