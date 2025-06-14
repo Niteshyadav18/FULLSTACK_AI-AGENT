@@ -47,7 +47,6 @@ Description: ${ticket.description}
 
         const parsed = JSON.parse(jsonStr);
 
-        // Optional validation
         if (!["low", "medium", "high"].includes(parsed.priority)) {
             parsed.priority = "medium";
         }
