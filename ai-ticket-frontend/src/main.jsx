@@ -8,12 +8,12 @@ import TicketDetailsPage from "./pages/ticket.jsx";
 import Login from "./pages/login.jsx";
 import Signup from "./pages/signup.jsx";
 import Admin from "./pages/admin.jsx";
-import Navbar from "./components/navbar.jsx"; 
+import Navbar from "./components/navbar.jsx";
 
 createRoot(document.getElementById("root")).render(
     <StrictMode>
         <BrowserRouter>
-            <Navbar /> 
+            <Navbar /> //Navbar
             <Routes>
                 <Route
                     path="/"
