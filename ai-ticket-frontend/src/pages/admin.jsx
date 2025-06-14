@@ -74,7 +74,7 @@ export default function AdminPanel() {
 
     return (
         <div className="max-w-4xl mx-auto mt-10 text-white">
-            <h1 className="text-3xl font-bold mb-6 text-center">Admin Panel - Manage Users</h1>
+            <h2 className="text-3xl font-bold mb-6 text-center">Admin Panel - Manage Users</h2>
 
             <input
                 type="text"
