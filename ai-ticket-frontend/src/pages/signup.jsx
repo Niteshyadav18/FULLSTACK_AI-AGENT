@@ -14,12 +14,12 @@ export default function SignupPage() {
         e.preventDefault();
         setLoading(true);
         try {
-            const res = await fetch(`${import.meta.env.VITE_SERVER_URL}/api/auth/signup`, {
+            const res = await fetch(`${import.meta.env.VITE_SERVER_URL}/auth/signup`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
                 },
-                body: JSON.stringify({email: form.email, password: form.password}),
+                body: JSON.stringify(form),
             });
 
             const data = await res.json();
