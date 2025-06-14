@@ -13,7 +13,7 @@ import Navbar from "./components/navbar.jsx";
 createRoot(document.getElementById("root")).render(
     <StrictMode>
         <BrowserRouter>
-            <Navbar /> //navbar
+            <Navbar />
             <Routes>
                 <Route
                     path="/"
