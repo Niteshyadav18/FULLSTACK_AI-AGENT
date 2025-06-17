@@ -1,8 +1,9 @@
-# AI-Powered Ticket Management System 🎫🤖
-
-Welcome to the AI-Powered Ticket Management System!
+SupportMate AI 🎫🤖
+Welcome to SupportMate AI, an AI-powered ticket management system!
 
 This project is a full-stack web application that uses AI to automatically categorize, prioritize, and assign support tickets to the most appropriate moderators. It’s designed to streamline support workflows using smart automation and modern tooling.
+
+
 
 ---
 
